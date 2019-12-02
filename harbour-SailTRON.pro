@@ -10,7 +10,7 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = SailTRON
+TARGET = harbour-SailTRON
 
 CONFIG += sailfishapp_qml
 
@@ -36,4 +36,4 @@ CONFIG += sailfishapp_i18n
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/SailTRON-de.ts
+TRANSLATIONS += translations/harbour-SailTRON-de.ts
