@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-SailTRON
+Exec=sailfish-qml harbour-SailTRON
+Name=SailTRON
+
