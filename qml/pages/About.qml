@@ -52,7 +52,7 @@ Page {
                 font.pixelSize: Theme.fontSizeExtraSmall
                 color: Theme.primaryColor
                 wrapMode: Text.Wrap
-                text: "SailTRON v1.0\nBy szopin\nLicensed under MIT";
+                text: "SailTRON v0.1\nBy szopin\nLicensed under MIT";
             }
 
             Button {
@@ -63,7 +63,7 @@ Page {
                     margins: Theme.paddingMedium
                 }
                 text: "Github"
-                onClicked: Qt.openUrlExternally("https://github.com/szopin/harbour-sailTRON");
+                onClicked: Qt.openUrlExternally("https://github.com/szopin/harbour-SailTRON");
             }
                         Button {
                 id: license
@@ -73,7 +73,7 @@ Page {
                     margins: Theme.paddingLarge
                 }
                 text: "License"
-                onClicked: Qt.openUrlExternally("https://github.com/szopin/harbour-sailTRON/blob/master/LICENSE");
+                onClicked: Qt.openUrlExternally("https://github.com/szopin/harbour-SailTRON/blob/master/LICENSE");
             }
         }
     }
