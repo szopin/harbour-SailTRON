@@ -16,7 +16,7 @@ License:    MIT
 BuildArch:  noarch
 URL:        http://example.org/
 Source0:    %{name}-%{version}.tar.bz2
-Source100:  harbour-SailTRON.yaml
+Source100:  harbour-sailtron.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
 Requires:   libsailfishapp-launcher
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.3
