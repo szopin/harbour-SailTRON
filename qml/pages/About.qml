@@ -25,7 +25,7 @@ Page {
                 id: appIcon
                 fillMode: Image.PreserveAspectFit
                 smooth: true
-                source: "../img/harbour-SailTRON.png"
+                source: "../img/harbour-sailtron.png"
                 anchors.horizontalCenter: parent.horizontalCenter
 
             }
@@ -52,7 +52,7 @@ Page {
                 font.pixelSize: Theme.fontSizeExtraSmall
                 color: Theme.primaryColor
                 wrapMode: Text.Wrap
-                text: "SailTRON v0.1\nBy szopin\nLicensed under MIT";
+                text: "SailTRON v0.2\nBy szopin\nLicensed under MIT";
             }
 
             Button {
