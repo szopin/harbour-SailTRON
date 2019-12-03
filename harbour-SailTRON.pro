@@ -10,21 +10,21 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = harbour-SailTRON
+TARGET = harbour-sailtron
 
 CONFIG += sailfishapp_qml
 
-DISTFILES += qml/harbour-SailTRON.qml \
+DISTFILES += qml/harbour-sailtron.qml \
     qml/cover/CoverPage.qml \
     qml/pages/About.qml \
     qml/pages/FirstPage.qml \
     qml/pages/SecondPage.qml \
-    rpm/harbour-SailTRON.changes.in \
-    rpm/harbour-SailTRON.changes.run.in \
-    rpm/harbour-SailTRON.spec \
-    rpm/harbour-SailTRON.yaml \
+    rpm/harbour-sailtron.changes.in \
+    rpm/harbour-sailtron.changes.run.in \
+    rpm/harbour-sailtron.spec \
+    rpm/harbour-sailtron.yaml \
     translations/*.ts \
-    harbour-SailTRON.desktop
+    harbour-sailtron.desktop
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
@@ -36,4 +36,4 @@ CONFIG += sailfishapp_i18n
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/harbour-SailTRON-de.ts
+TRANSLATIONS += translations/harbour-sailtron-de.ts
